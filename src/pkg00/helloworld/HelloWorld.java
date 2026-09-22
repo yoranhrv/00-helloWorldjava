@@ -15,6 +15,7 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         System.out.println("Hello World by YH on github!");
+        System.out.println("Ligne 2");
     }
     
 }
