@@ -21,7 +21,7 @@ public class HelloWorld {
         System.out.println("Ligne 2");
         
         Ex4*/
-    Scanner sc = new Scanner(System.in);
+    /*Scanner sc = new Scanner(System.in);
     
         System.out.print("x : ");
         int x = sc.nextInt();
@@ -38,7 +38,24 @@ public class HelloWorld {
         y = z;
 
         System.out.println("Apres l'echange : x = " + x + ", y = " + y);
-           
+     
+        System.out.print("x : ");
+        int x = sc.nextInt();
+    
+        System.out.print("y : ");
+        int y = sc.nextInt();
+        
+        Ex5*/
+    Scanner sc = new Scanner(System.in);
+    
+        System.out.print("a : ");
+        float a = sc.nextFloat();
+    
+        System.out.print("b : ");
+        float b = sc.nextFloat();
+        float resultat = (a+b)*2;
+        
+        System.out.print("Resultat " + resultat);
     }
     
 }
